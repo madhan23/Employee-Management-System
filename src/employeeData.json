@@ -1,0 +1,29 @@
+[
+  {
+    "id": 1,
+    "imageUrl": "https://www.pngkey.com/png/full/305-3050875_employee-parking-add-employee-icon-png.png",
+    "firstName": "Madhan Kumar",
+    "lastName": "R",
+    "dob": "21/03/1997",
+    "emailId": "madhan@test.com",
+    "phoneNumber": 9090909090
+  },
+  {
+    "id": 2,
+    "imageUrl": "https://www.pngkey.com/png/full/305-3050875_employee-parking-add-employee-icon-png.png",
+    "firstName": "Ravi Kumar",
+    "lastName": "R",
+    "dob": "21/03/1992",
+    "emailId": "ravi@test.com",
+    "phoneNumber": 9867567856
+  },
+  {
+    "id": 3,
+    "imageUrl": "https://www.pngkey.com/png/full/305-3050875_employee-parking-add-employee-icon-png.png",
+    "firstName": "Anu Radha",
+    "lastName": "V",
+    "dob": "21/02/1997",
+    "emailId": "anu@test.com",
+    "phoneNumber": 787656784
+  }
+]

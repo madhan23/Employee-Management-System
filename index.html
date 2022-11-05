@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Parcel Sandbox</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="src/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+
+  <body>
+    <header>
+      <div class="header">
+        <div class="header__logo">
+          <img
+            src="https://w7.pngwing.com/pngs/429/907/png-transparent-computer-icons-employee-benefits-business-employee-engagement-security-business-service-people-logo.png"
+            alt="employee-logo"
+          />
+          <span class="header__logo--text">EmployeeManagement</span>
+        </div>
+
+        <div class="header__btn">
+          <button class="header__btn--add">AddEmployee</button>
+        </div>
+      </div>
+    </header>
+    <main class="employee">
+      <section class="employee__list">
+        <div class="employee__list--item"></div>
+      </section>
+      <section class="employee__info"></section>
+    </main>
+    <div class="addEmployee">
+      <form class="addEmployee_create">
+        <div>
+          <input
+            type="text"
+            name="firstName"
+            placeholder="firstName"
+            required
+          />
+          <input type="text" name="lastName" placeholder="lastName" required />
+        </div>
+
+        <input type="text" name="imageUrl" placeholder="Image URL (Optional)" />
+        <input
+          type="date"
+          class="addEmployee_create--dob"
+          name="dob"
+          required
+        />
+        <input type="email" name="emailId" placeholder="email" required />
+        <input
+          type="number"
+          name="phoneNumber"
+          placeholder="phoneNumber"
+          required
+        />
+        <input type="submit" class="addEmployee_create--submit" value="save" />
+      </form>
+    </div>
+    <script src="src/index.js"></script>
+  </body>
+</html>
